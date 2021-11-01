@@ -181,8 +181,14 @@ nav ul li:not(:first-of-type
     font-size: 12vmin;
     font-weight: bold;
     line-height: 10vmin;
-    display: inline-block;
-    color: rgb(43, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    color: #000000;
+    font-size: 50px;
+    text-shadow: 0px 20px 8px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
 }
 
 .mainPicFont a {
