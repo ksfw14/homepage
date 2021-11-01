@@ -116,10 +116,10 @@ nav {
     z-index: 2;
     overflow: auto;
     height: 100%;
-    background-color: rgb(177, 202, 186);
+    bbackground-color: antiquewhite;
 }
 
-nav.acti\ve {
+nav.active {
     transition: scale(1);
     opacity: 1;
     visibility: visible;
@@ -129,8 +129,7 @@ nav ul {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /*要素を縦並びに*/
-    height: 100%;
+
 }
 
 nav ul li:not(:first-of-type
