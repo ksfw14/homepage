@@ -162,9 +162,9 @@ nav ul li:not(:first-of-type
 /*--------------------- メイン写真 -------------------------*/
 
 .mainPic img {
-    width: 98vw;
+    width: 100vw;
     margin: auto;
-    height: 90vh;
+    height: 120vh;
     align-items: center;
     position: relative;
     border-radius: 20px;
