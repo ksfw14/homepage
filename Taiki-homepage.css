@@ -116,7 +116,7 @@ nav {
     z-index: 2;
     overflow: auto;
     height: 100%;
-    bbackground-color: antiquewhite;
+    background-color: antiquewhite;
 }
 
 nav.active {
@@ -168,6 +168,18 @@ nav ul li:not(:first-of-type
     border-radius: 20px;
     box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
 }
+
+
+@media screen and (max-width:480px) {
+    body {
+      width: 100%;
+    }
+    
+    .mainPic img {
+        height: 90vh;
+    }
+}
+
 
 .mainPicFont {
     font-family: 'Bona Nova', serif;
