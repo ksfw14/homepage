@@ -274,8 +274,13 @@ nav ul li:not(:first-of-type
 
 .Likes img:hover {
     box-shadow: none;
-    cursor: pointer;
+    cursor: grab;
 }
+
+.Likes img:active {
+    cursor: grabbing;
+}
+
 
 
 /* -----------Skills--------------- */
