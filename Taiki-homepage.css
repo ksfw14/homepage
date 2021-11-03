@@ -167,6 +167,7 @@ nav ul li:not(:first-of-type
     position: relative;
     border-radius: 20px;
     box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+    object-fit:cover;
 }
 
 
